@@ -1,0 +1,37 @@
+﻿@charset "UTF-8";
+/**
+* 易机网PC新版
+* 2017.6.15
+* user-新蕾的梦幻cyl
+*/
+.logo-yiji { display: block; margin: 60px auto; }
+
+.login-way { width: 300px; padding: 20px 20px 20px 20px; background-color: #fff; margin: 0 auto; border: 1px solid #EEEEF0; margin: 40px auto 150px; }
+.login-way .wxts-user { text-align: center; padding: 0  0 20px 0; border-bottom: 1px solid #eeeef0; margin-bottom: 20px; }
+.login-way .wxts-user h2 { font-size: 20px; color: #191D2C; line-height: 40px; }
+.login-way .wxts-user p { font-size: 14px; color: #2c2e41; }
+.login-way .tab-name { width: 100%; height: auto; /*.tab-title.current span{color: #007AFF;border-bottom: 2px solid #007AFF;}*/ }
+.login-way .tab-name .tab-title { font-size: 20px; color: #007AFF; width: 100%; float: left; text-align: center; /*margin-bottom: 10px;*/ }
+.login-way .tab-name .tab-title span { border-bottom: 2px solid #fff; padding-bottom: 6px; }
+.login-way ul { width: 100%; height: auto; overflow: hidden; }
+.login-way ul li { display: block; margin: 20px 0; position: relative; clear: both; /*.phone-pwd-t{position: absolute;left: 10px;top:15px; i{display: inline-block;width: 24px;height: 24px;background: url("../images/pwd_1.png") no-repeat;vertical-align: middle;}
+}
+.phone-pwd{font-size: 16px;height: 16px;line-height: 16px;padding: 16px 16px 16px 40px;width: 240px;}
+*/ }
+.login-way ul li input { border: 1px solid #EEEEF0; }
+.login-way ul li .phone-num-t { position: absolute; left: 10px; top: 15px; }
+.login-way ul li .phone-num-t i { display: inline-block; width: 24px; height: 24px; background: url("../images/phone_1.png") no-repeat; vertical-align: middle; }
+.login-way ul li .phone-num { font-size: 16px; height: 16px; line-height: 16px; padding: 16px 16px 16px 40px; width: 240px; }
+.login-way ul li .yanzheng { display: inline-block; height: 48px; width: 135px; position: absolute; top: 0; right: 0; border: 1px solid #EEEEF0; }
+.login-way ul li .dynic-code { font-size: 16px; height: 16px; line-height: 16px; padding: 16px 0px 16px 16px; width: 146px; }
+.login-way ul li .get-dy-code { font-size: 14px; height: 48px; line-height: 48px; float: right; width: 136px; border: 1px solid #EEEEF0; border-left: 0px; cursor: pointer; text-align: center; color: #fff; background-color: #007AFF; position: absolute; right: 0; top: 0; }
+.login-way ul li .get-dy-code .count-down em { display: inline-block; width: 38px; text-align: center; }
+.login-way ul li .get-dy-code.disabled { pointer-events: none; color: #333; background-color: #e9e9e9; }
+.login-way ul li .login-btn { display: block; width: 300px; height: 50px; line-height: 50px; background-color: #007AFF; color: #fff; font-size: 18px; text-align: center; }
+.login-way ul .error-hint { color: red; }
+.login-way ul .skip-step { display: block; text-align: center; font-size: 16px; color: #007AFF; }
+.login-way .forget-password { display: block; font-size: 12px; color: #007AFF; text-align: right; height: 12px; line-height: 12px; }
+.login-way .login-phone .social-platform { font-size: 16px; color: #191D2C; text-align: center; height: 30px; line-height: 30px; margin: 4px 0 10px; }
+.login-way .login-phone .platform-icon { display: inline-block; margin: 10px 8px; }
+
+/*# sourceMappingURL=login.css.map */
